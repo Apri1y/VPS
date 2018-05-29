@@ -603,8 +603,8 @@ install_select() {
 
 install_prepare_password() {
     echo "Please enter password for ${software[${selected}-1]}"
-    read -p "(Default password: teddysun.com):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="teddysun.com"
+    read -p "(Default password: apri1y@vip.qq.com):" shadowsockspwd
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="apri1y@vip.qq.com"
     echo
     echo "password = ${shadowsockspwd}"
     echo
